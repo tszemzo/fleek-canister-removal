@@ -2,7 +2,7 @@
 
 ### Important note:
 
-The wallet module and the ```createWalletActor.ts``` file were added just to give context to the project as this little project doesnt't support typescript, they were extracted from fleek-v2 repo.
+The wallet module and the ```createWalletActor.ts``` file were added just to give context to the project as this little project doesnt't support typescript, they were extracted from fleek-v2 repo. Also I wasn't sure if conceptually what I'm doing with the wallet and the canister we want to delete is fine, so specially on step 3/3b I'm open to suggestions and improvals.
 
 In order to run the project apart from the steps below you should probably comment / test / fix the content of the ```if``` statement inside removeCanister file
 
