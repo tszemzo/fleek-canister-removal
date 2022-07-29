@@ -1,0 +1,24 @@
+{
+  "name": "phishing-lambda-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "author": "Tomas <szemzotomas@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@dfinity/agent": "^0.12.2",
+    "@dfinity/candid": "^0.12.2",
+    "@dfinity/identity": "^0.12.2",
+    "@dfinity/principal": "^0.12.2",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "helmet": "^5.1.1",
+    "isomorphic-fetch": "^3.0.0",
+    "lodash": "^4.17.21"
+  }
+}
