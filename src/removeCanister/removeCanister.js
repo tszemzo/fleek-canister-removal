@@ -40,7 +40,7 @@ async function removeCanister (canisterId) {
       const { amount } = await canisterWallet.wallet_balance();
       console.log(`withdrawing ${amount} from canister ${canisterId} and sending it to cycle wallet canister`);
 
-      const cycleWalletId = "owdog-wiaaa-aaaad-qaaaq-cai"; // retrieved from vojtech code this id
+      const cycleWalletId = "aaaa-xxx"; // add a correct cycle wallet id here
       const recipient = Principal.fromText(cycleWalletId);
       
       const { Ok } = await walletActor.wallet_send(recipient, amount);
